@@ -1,3 +1,4 @@
+<div class="mermaid">
 flowchart LR
 
 PWM[PWM] --> SYS[Thermal System]
@@ -15,7 +16,4 @@ TPHYS --> SUM[+]
 DELTA --> SUM
 
 SUM --> Y[T_hat]
-
-SYS --> YREAL[T_real]
-Y --> ERR[Error Analysis]
-YREAL --> ERR
+</div>
